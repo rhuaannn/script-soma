@@ -27,5 +27,9 @@ input {
 }
 label{
     color: bisque;
-    margin-left: 100px;
+    margin-left: 50px;
+}
+span{
+    color: bisque;
+    margin-left: 50px;
 }
