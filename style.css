@@ -1,3 +1,31 @@
-p{
+body{
+    margin: 0;
+    padding: 0;
+    background: #2d3436;
+  }
+h1{
     text-align: center;
+    border: solid 1px;
+    margin-top: 70px;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+.btn{
+    text-align: center;
+    border:1px solid #25692A;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: 30px;
+    padding:6px 10px;
+
+      
+}
+
+input {
+    display: flex;
+    margin: 0 auto;
+}
+label{
+    color: bisque;
+    margin-left: 100px;
 }

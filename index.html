@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="code.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <title>Teste</title>
+    <title>Calculadora</title>
 </head>
+
 <body>
-    <h1>teste</h1>
-    <p>teste</p>
+    <h1 style="color:bisque;">Calculadora simples</h1>
+
+    <label>Informe o número</label>
+    <input id="n1"type="number"></input>
+
+    <label>Informe outro número</label>
+    <input id="n2" type="number"></input>
+    <br>
+  <label id="resultado">Resultado do cálculo é:</label>
+    <br>
+
+    <div class="btn">
+        <button onclick="multiplicar()">Mutiplicação</button>
+        <button onclick="somar()">Soma</button>
+        <button onclick="subtrair()">Subtração</button>
+        <button onclick="divisao()">Divisão</button>
+    </div>
+
 </body>
+
 </html>
