@@ -17,7 +17,7 @@ function multiplicar() {
     var n2 = document.querySelector('#n2').value
     var resultado = document.querySelector('#resultado')
 
-    resultado.innerHTML = n1 * n2
+    resultado.innerHTML = parseInt(n1) * parseInt(n2)
 
 }
 function somar() {
@@ -33,7 +33,7 @@ function subtrair() {
     var n2 = document.querySelector('#n2').value
     var resultado = document.querySelector('#resultado')
 
-    resultado.innerHTML = n1 - n2
+    resultado.innerHTML = parseInt(n1) + parseInt(n2)
 
 }
 function divisao() {
@@ -41,6 +41,6 @@ function divisao() {
     var n2 = document.querySelector('#n2').value
     var resultado = document.querySelector('#resultado')
 
-    resultado.innerHTML = n1 / n2
+    resultado.innerHTML = parseInt(n1) + parseInt(n2)
 
 }
