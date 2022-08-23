@@ -20,6 +20,26 @@ function multiplicar() {
     resultado.innerHTML = parseInt(n1) * parseInt(n2)
 
 }
+window.onload = function()
+{
+    document.getElementById('n1').addEventListener('keydown', function(event)
+    {
+        if (!Math.sign(event.key)&& (event.key!=="Backspace"))
+        {
+            event.preventDefault();
+        }
+    });
+}
+window.onload = function()
+{
+    document.getElementById('n2').addEventListener('keydown', function(event)
+    {
+        if (!Math.sign(event.key)&& (event.key!=="Backspace"))
+        {
+            event.preventDefault();
+        }
+    });
+}
 function somar() {
     var n1 = document.querySelector('#n1').value
     var n2 = document.querySelector('#n2').value
@@ -41,6 +61,6 @@ function divisao() {
     var n2 = document.querySelector('#n2').value
     var resultado = document.querySelector('#resultado')
 
-    resultado.innerHTML = parseInt(n1) + parseInt(n2)
+    resultado.innerHTML = parseInt(n1) / parseInt(n2)
 
 }
